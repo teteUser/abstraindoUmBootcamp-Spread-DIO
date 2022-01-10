@@ -8,7 +8,7 @@ public class Mentoria extends Conteudo{
 
     @Override
     protected double calcularXP() {
-        return 0;
+        return XP_PADRAO + 20d;
     }
 
     public Mentoria() {
@@ -23,6 +23,12 @@ public class Mentoria extends Conteudo{
         this.date = date;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Mentoria{" +
+                "Título=" + this.getTitulo() +
+                "Descrição=" + this.getDescricao() +
+                "Data e hora=" + this.getDate() +
+                '}';
+    }
 }
