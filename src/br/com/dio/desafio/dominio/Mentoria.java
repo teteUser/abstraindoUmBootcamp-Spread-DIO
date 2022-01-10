@@ -8,6 +8,10 @@ public class Mentoria {
     private String descricao;
     private LocalDate date;
 
+    public void calcularXp(){
+
+    }
+
     public Mentoria(String titulo, String descricao, LocalDate date) {
         this.titulo = titulo;
         this.descricao = descricao;
