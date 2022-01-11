@@ -48,6 +48,7 @@ public class Main {
         System.out.println("Conteúdos Inscritos do João: " + devJoao.getConteudosInscritos());
         System.out.println("Conteúdos Inscritos da Maria" + devMaria.getConteudosInscritos());
 
+        devJoao.progredir();
         System.out.println("XP do João: " + devJoao.calcularTotalXp());
         System.out.println("XP da Maria: " + devMaria.calcularTotalXp());
 
