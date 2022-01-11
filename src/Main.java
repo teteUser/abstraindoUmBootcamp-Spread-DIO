@@ -10,12 +10,12 @@ public class Main {
         Curso cursoJava = new Curso();
         cursoJava.setTitulo("Curso Java Básico");
         cursoJava.setDescricao("Iniciando no Java");
-        cursoJava.setCargaHoraria(40);
+        cursoJava.setCargaHoraria(20);
 
         Curso cursoSQL = new Curso();
         cursoSQL.setTitulo("Curso SQL");
         cursoSQL.setDescricao("Aprenda Banco de Dados SQL");
-        cursoSQL.setCargaHoraria(40);
+        cursoSQL.setCargaHoraria(10);
 
         Mentoria mentoriaJavaAvancado = new Mentoria();
         mentoriaJavaAvancado.setTitulo("Java Avançado");
