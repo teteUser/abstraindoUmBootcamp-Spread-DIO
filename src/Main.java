@@ -51,5 +51,10 @@ public class Main {
         System.out.println("XP do João: " + devJoao.calcularTotalXp());
         System.out.println("XP da Maria: " + devMaria.calcularTotalXp());
 
+        System.out.println("Maria dá mais uma passo no Bootcamp...");
+        devMaria.progredir();
+
+
+
     }
 }
