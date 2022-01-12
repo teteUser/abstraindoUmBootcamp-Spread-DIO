@@ -74,13 +74,13 @@ public class Bootcamp {
 
     @Override
     public String toString() {
-        return "Bootcamp{" +
-                "nome='" + nome + '\'' +
-                ", descricao='" + descricao + '\'' +
-                ", dataInicial=" + dataInicial +
-                ", dataFinal=" + dataFinal +
-                ", devsInscritos=" + devsInscritos +
-                ", conteudos=" + conteudos +
-                '}';
+        return "[Bootcamp](" +
+                "Nome = " + nome +
+                " Descricao = " + descricao +
+                " DataInicial = " + dataInicial +
+                " DataFinal = " + dataFinal +
+                " Devs Inscritos = " + devsInscritos +
+                " Conteúdos = " + conteudos +
+                ")\n";
     }
 }

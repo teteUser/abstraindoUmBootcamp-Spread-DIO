@@ -25,10 +25,10 @@ public class Mentoria extends Conteudo{
 
     @Override
     public String toString() {
-        return "Mentoria{" +
-                "Título=" + this.getTitulo() +
-                "Descrição=" + this.getDescricao() +
-                "Data e hora=" + this.getDate() +
-                '}';
+        return "[Mentoria](" +
+                "Título = " + this.getTitulo() +
+                "Descrição = " + this.getDescricao() +
+                "Data e hora = " + this.getDate() +
+                ")\n";
     }
 }
