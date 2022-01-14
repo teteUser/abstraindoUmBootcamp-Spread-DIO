@@ -13,6 +13,7 @@ public class Mentoria extends Conteudo{
 
     public Mentoria() {
         this.date = LocalDate.now();
+        this.setCargaHoraria(2);
     }
 
     public LocalDate getDate() {

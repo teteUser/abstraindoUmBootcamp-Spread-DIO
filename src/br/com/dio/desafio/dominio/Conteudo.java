@@ -5,6 +5,7 @@ public abstract class Conteudo {
     protected static final double XP_PADRAO = 10d;
     private String titulo;
     private String descricao;
+    private int cargaHoraria;
 
     protected abstract double calcularXP();
 
@@ -22,5 +23,13 @@ public abstract class Conteudo {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public int getCargaHoraria() {
+        return cargaHoraria;
+    }
+
+    public void setCargaHoraria(int cargaHoraria) {
+        this.cargaHoraria = cargaHoraria;
     }
 }
