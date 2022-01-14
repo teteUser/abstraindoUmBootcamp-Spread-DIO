@@ -38,7 +38,7 @@ public class Main {
 
         System.out.println("\nConteúdos Inscritos do João:\n" + devJoao.getConteudosInscritos());
         System.out.println("\nConteúdos Inscritos da Maria:\n" + devMaria.getConteudosInscritos());
-/*
+
         devJoao.progredir();
         devMaria.progredir();
 
@@ -56,6 +56,6 @@ public class Main {
 
         System.out.println("XP do João: " + devJoao.calcularTotalXp());
         System.out.println("XP da Maria: " + devMaria.calcularTotalXp());
-*/
+
     }
 }
