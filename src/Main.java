@@ -7,19 +7,11 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        Curso cursoJava = new Curso();
-        cursoJava.setTitulo("Curso Java Básico");
-        cursoJava.setDescricao("Iniciando no Java");
-        cursoJava.setCargaHoraria(20);
+        Curso cursoJava = new Curso("Java Básico", "Iniciando no Java", 20);
 
-        Curso cursoSQL = new Curso();
-        cursoSQL.setTitulo("Curso SQL");
-        cursoSQL.setDescricao("Aprenda Banco de Dados SQL");
-        cursoSQL.setCargaHoraria(10);
+        Curso cursoSQL = new Curso("SQL Database", "Banco de Dados Relacionais", 10);
 
-        Mentoria mentoriaJavaAvancado = new Mentoria();
-        mentoriaJavaAvancado.setTitulo("Java Avançado");
-        mentoriaJavaAvancado.setDescricao("Mentoria em Java Avançado");
+        Mentoria mentoriaJavaAvancado = new Mentoria("Java Avançado", "Avançando em Java");
 
         Bootcamp bootcamp = new Bootcamp();
         bootcamp.setNome("Java Spread");
