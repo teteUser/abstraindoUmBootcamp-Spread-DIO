@@ -26,7 +26,7 @@ public class Dev {
     }
 
     //@Override
-    public double calcularTotalXp(){
+    public int calcularTotalXp(){
         return this.conteudosConcluidos.stream().mapToInt(Conteudo::calcularXP).sum();
     }
 
