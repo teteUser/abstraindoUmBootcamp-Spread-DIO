@@ -12,7 +12,7 @@ public class Curso extends Conteudo{
 
 
     @Override
-    protected double calcularXP() {
+    protected int calcularXP() {
         return XP_PADRAO * (this.getCargaHoraria());
     }
 

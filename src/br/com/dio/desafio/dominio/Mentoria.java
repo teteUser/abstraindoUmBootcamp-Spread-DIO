@@ -7,8 +7,8 @@ public class Mentoria extends Conteudo{
     private LocalDate date;
 
     @Override
-    protected double calcularXP() {
-        return XP_PADRAO + 20d;
+    protected int calcularXP() {
+        return XP_PADRAO + 20;
     }
 
     public Mentoria(String titulo, String descricao) {
